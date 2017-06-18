@@ -1,0 +1,28 @@
+.about-pic{
+    margin-top: 7%;
+}
+.index-add-btn{
+    margin-left: 20%;
+}
+
+.index-text-input{
+    margin: 0 auto;
+    width: 150px;
+}
+
+.index-input-area{
+    margin-top: 3%;
+}
+
+.index-pay-table{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.index-pay-table th{
+    text-align: center;
+}
+
+.about-back-btn{
+    float: right;
+}

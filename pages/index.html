@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>公共财物管理系统</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet"
+    <link rel="stylesheet" href="../css/publicpropertycss.css">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script src="../js/publicpropertyjs.js"></script>
+
+</head>
+<body>
+<div class="text-center">
+    <h2>公共支出计算</h2>
+    <h2>
+        <small><a href="about.html">作者:Knight-JXNU</a></small>
+    </h2>
+</div>
+<div id="inputPayInfo">
+    <div class="index-input-pay">
+        <input type="text" id="totalMoney" class="form-control index-text-input required" placeholder="money"
+               name="totalMoney">
+    </div>
+    <div id="inputArea" class="text-center index-input-area">
+        <p class="form-inline">
+            <input type="text" class="form-control index-text-input" placeholder="name">
+            <input type="text" class="form-control index-text-input" placeholder="weight(default value:1)">
+        </p>
+
+    </div>
+
+    <div class="text-center">
+        <button id="indexCalculate" class="btn btn-success">CALCULATE</button>
+        <button id="indexAdd" class="btn btn-success index-add-btn">ADD</button>
+    </div>
+</div>
+<div id="payTable" class="index-pay-table">
+</div>
+</body>
+</html>
